@@ -5,5 +5,14 @@
 
 
 .images{
-    display: inline-block;
+    display: block;
+}
+
+.logo{
+    color:#4b4406;
+
+}
+
+.background{
+    background-color: rgb(59, 26, 26);
 }

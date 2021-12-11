@@ -13,13 +13,27 @@
 <!--Emment boilerplate head with style links to bootstrap, font awesome (urls in readme file) 
     link to style css also included. File in git reposity-->
 
-    <body>
-    <article class="container">
+    <body >
+        <nav class="navbar navbar-dark bg-dark narbar-expand-sm">
+            <a href="#" ><h1 class="logo text-uppercase" >Tanker Transport</h1></a>
+            <ul class="navbar-nav my-auto ">
+                <li class="active nav-item mr-2">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class=" nav-item mr-2">
+                    <a class="nav-link" href="#">Specs</a>
+                </li>
+                <li class=" nav-item mr-2">
+                    <a class="nav-link" href="#">Other</a>
+                </li>
+            </ul>
+        </nav>
+    <article class="container-fluid background">
         <!--header --> <!-- external link to an exchange rate calculator -->
     <header>
         <section class="header">
-        <a href="#" ><h1 class="logo text-uppercase" >Tanker Transport</h1></a>
-        <h1>Heavy Goods Desert Transport.</h1>
+        
+        <h1 class="text-uppercase">Heavy Goods Desert Transport.</h1>
         <p class="lead ">Dont shrink your horizons, turn them landward!</p>
 
     </section>
@@ -28,44 +42,47 @@
     </header>
 <hr>
     <!--mission statement, company info and background image-->
-    <section class="mission-statement">
+    <section class="mission-statement my-5">
         <div class="blue">
             <h1 class="text-uppercase">Fulfilling Your Transport Goals</h1>
         </div>
-        <div>
-            <p>The strait of Hormus is a potential choke point for oil traffic, but what if your could bypass this hazard?</p>
-            <p>We at Tanker Transport can take your ship on an overland route and place it back in the sea so that you can meet your transport needs.
-            </p>
-            <p>Why take a look at out booking section to get started. </p>
+        <div class="row">
+            <div class="col-12"><p>The strait of Hormus is a potential choke point for oil traffic, but what if your could bypass this hazard?</p>
+            </div>
+            <div class="col-12"><p>We at Tanker Transport can take your ship on an overland route and place it back in the sea so that you can meet your transport needs.
+            </p></div>
+            <div class="col-12">
+            <p>Why not take a look at out booking section to get started. </p>
+            </div>
         </div>
         <div class="row">
-            <div class="col hormuz">
-                <img>
+            <div class="col-4 col-sm-12 col-md-6 hormuz">
+                <img src="images/soh.jpg">
             </div>
-            <div class="col method">
-                <img>
+            <div class="col-4 col-sm-12 col-md-6 method">
+                <img src="images/crawler.jpg">
             </div>
-            <div class="col a-to-b">
+            <div class="col-4 col-sm-12 col-md-6 a-to-b">
                 <img>
             </div>
         </div>
     </section>
 <hr>
     <!--booking and buying section -->
-    <section class="booking-and-buying">
+    <section class="booking-and-buying my-5">
         <div class="row">
-            <div class="col booking">
+            <div class="col-6 col-sm-12 col-lg-6 booking">
                 <h2 class="text-uppercase">Book a lift</h2>
                 <button class="btn btn-success">Book!</button> <!--form -->
             
             <div>
-            <p>Book a lift with our many transports for you and your cargo.</p>
+            <p class="d-none d-md-block">Book a lift with our many transports for you and your cargo.</p>
             </div>
             </div>
-        <div class=" col buying">
+        <div class=" col-6  col-sm-12 col-lg-6 buying">
         <h2 class="text-uppercase">Buy a transport</h2>
         <button class="btn btn-success">Buy!</button> <!--drop down to models section -->
-        <p>
+        <p class="d-none d-md-block">
             Choose from one of our models to priortise your needs.
         </p>
         </div>
@@ -73,14 +90,14 @@
     </section>
     <hr>
     <!--images section -->
-    <section>
+    <section class="my-5">
         <div>
             <h1 class="text-uppercase">Our Stock</h1>
         </div>
             <div class="row images">
-                <div class="col"> <img url></div>
-                <div class="col"> <img  ></div>
-                <div class="col"> <img  ></div>
+                <div class="col-4 col-sm-12 col-md-4"> <img src="images/"></div>
+                <div class="col-4 col-sm-12 col-md-4"> <img  src="images/"></div>
+                <div class="col-4 col-sm-12 col-md-4"> <img  src="images/"></div>
             </div>
     </section>
 

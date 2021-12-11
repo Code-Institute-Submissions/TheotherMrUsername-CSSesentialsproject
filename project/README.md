@@ -30,3 +30,7 @@ Buttons added to promote the services of selling and booking rides on the crawle
 
 I've added mission statement paragraphs setting out the clients problem, and offering the service to solve it. 
 Below that there is a pitch to check out the booking section below 
+
+11/12/2021  Added more col width classes and a nav bar with links. 
+Text in the book and buy section is removed for smaller screen sizes. 
+First images added to the mission statement section 
