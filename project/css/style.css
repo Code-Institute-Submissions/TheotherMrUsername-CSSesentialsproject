@@ -1,6 +1,6 @@
 
-.blue{
-    background-color: blue;
+body {
+    background-color: ;
 }
 
 
@@ -9,10 +9,57 @@
 }
 
 .logo{
-    color:#4b4406;
+    color:#fafafa;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    font-size: 80px;
+
 
 }
 
-.background{
+.b{
     background-color: rgb(59, 26, 26);
+}
+
+
+/*containers*/
+
+
+.header{
+    height: 100vh;
+    font-family: "poppins";
+    color:#fafafa;
+   
+    
+
+        background: url(../images/desert-wallpaper-4k-1280x960.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+
+}
+
+.mission-statement{
+    display:inline-block;
+}
+
+.booking-and-buying{
+
+}
+
+.images{
+
+}
+
+/*pictures*/
+
+.hormuz{
+
+}
+
+.method{
+    height:100%;
+    width: 100%;
 }
