@@ -1,15 +1,16 @@
 
 body {
-    background-color: ;
+    overflow: visible;
+
 }
 
 
 .images{
-    display: block;
+    display: flex;
 }
 
 .logo{
-    color:#fafafa;
+    color:slateblue;
     font-family: "Poppins", sans-serif;
     padding: 0;
     font-size: 80px;
@@ -21,14 +22,30 @@ body {
     background-color: rgb(59, 26, 26);
 }
 
+hr{
+    margin: 0;
+    padding: 0;
+}
 
 /*containers*/
 
+.navbar{
+    background-color: #ca9605;
+    border-color: beige;
+    border-width: 10px;
+    height: 100px;
+}
+
+.intro{
+    color: slateblue;
+}
 
 .header{
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
     font-family: "poppins";
     color:#fafafa;
+    overflow:visible;
    
     
 
@@ -37,29 +54,82 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    
+}
+
+.background{
+    size: cover;
+    overflow: visible;
 
 }
+
 
 .mission-statement{
     display:inline-block;
+    background-color: beige;
+    size: cover;
 }
 
-.booking-and-buying{
+.mission-statement img{
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.mission-statement .column{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex:15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.why{
+    text-transform: uppercase;
+}
+
+.booking-and-buying div{
+    background-color: skyblue;
 
 }
 
 .images{
-
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.images .row {
+    display: flex;
+  }
+  
+.images .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 
 /*pictures*/
 
-.hormuz{
-
+.soh{
+    height:90%;
+    width:90%;
 }
 
 .method{
-    height:100%;
-    width: 100%;
+    height:90%;
+    width: 90%;
+}
+
+.tanker{
+    height: 90%;
+    width: 90%;
+}
+
+.btn{
+    border-radius: 5%;;
 }
