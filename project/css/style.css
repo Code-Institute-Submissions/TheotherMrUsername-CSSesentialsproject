@@ -1,51 +1,55 @@
 
-body {
-    overflow: visible;
-
-}
 
 
-.images{
-    display: flex;
-}
+
 
 .logo{
-    color:slateblue;
+    color:rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
     padding: 0;
     font-size: 80px;
+    font-weight: bold;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 
+  position: relative;
 
 }
 
-.b{
-    background-color: rgb(59, 26, 26);
-}
+
 
 hr{
     margin: 0;
     padding: 0;
+    border:0;
 }
 
 /*containers*/
 
+
 .navbar{
-    background-color: #ca9605;
-    border-color: beige;
-    border-width: 10px;
-    height: 100px;
+    background-color: rgba(224, 136, 12, 0.5);
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    height: 90px;
+    font-weight: bold;
+    display: flex;
+  
 }
 
 .intro{
-    color: slateblue;
+    color: rgb(9, 2, 53);
+    
 }
 
 .header{
     height: 80vh;
     width: 100%;
     font-family: "poppins";
-    color:#fafafa;
-    overflow:visible;
+    color:#dd820a;
+    
    
     
 
@@ -54,6 +58,8 @@ hr{
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+
+
 }
 
 .background{
@@ -67,6 +73,10 @@ hr{
     display:inline-block;
     background-color: beige;
     size: cover;
+    width:100%;
+    border: 0;
+    justify-content: center;
+    
 }
 
 .mission-statement img{
@@ -79,19 +89,32 @@ hr{
 .mission-statement .column{
     padding: 0;
     margin: 0;
+    border:0;
     width: 100%;
-    display: flex;
+    display: inline-block;
     flex:15%;
     align-items: center;
     justify-content: center;
+    background-color: beige;
+}
+
+.mission-statement div{
+    width:100%;
+    background-color: beige;
 }
 
 .why{
     text-transform: uppercase;
 }
 
+.booking-and-buying{
+    width: 100%;
+}
+
 .booking-and-buying div{
     background-color: skyblue;
+    width: 100%;
+
 
 }
 
@@ -132,4 +155,13 @@ hr{
 
 .btn{
     border-radius: 5%;;
+}
+
+.images{
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
 }
