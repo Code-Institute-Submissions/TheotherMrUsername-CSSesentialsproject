@@ -23,6 +23,9 @@ body{
 
 .navbar-nav{
     width: 20%;
+    float: right;
+    position: relative;
+
 }
 
 
@@ -35,6 +38,11 @@ body{
     font-weight: bold;
     display: flex;
   
+}
+
+nav ul {
+    float: right;
+    position: relative;
 }
 
 .intro{
@@ -135,17 +143,21 @@ span{
     width: 100%;
     color: rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
-    padding:0;
+    padding:0 0 0 29px;
+
 }
 
-.booking-and-buying div{
-    background-color: rgb(2, 49, 53);
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 .book-and-buy-2{
+    background-color: #fafafa;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 20px;
+    color: rgb(9, 2, 53);
+}
+
+
+.booking-and-buying div{
     color: rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
     margin-top: 20px;
@@ -161,7 +173,7 @@ span{
     justify-content: center;
     color: #d56f29;
     font-family: "Poppins", sans-serif;
-    background-color: rgb(9, 2, 53);;
+    background-color: rgb(9, 2, 53);
 }
 
 .images .row {
@@ -172,6 +184,34 @@ span{
     
     padding: 5px;
   }
+
+.product-name{
+    color: #d56f29;
+}
+
+  /*page 2 */
+
+  .images-2{
+    padding: 0 0 0 40px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #060300;
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa
+  }
+
+.images-2 .row {
+        display: flex;
+      }
+      
+.images .column {
+        
+padding: 5px;
+}
+
 
 /*pictures*/
 
