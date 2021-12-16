@@ -1,35 +1,33 @@
 
 
-
-
-
 .logo{
     color:rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
-    padding: 0;
-    font-size: 80px;
+    padding-top: 15px;
+    font-size: 75px;
     font-weight: bold;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
+    padding: 20px 0 0 0;
 
 }
 
-
-
-hr{
-    margin: 0;
-    padding: 0;
-    border:0;
+.intro{
+    padding: 0 0 0 10px;
 }
 
 /*containers*/
 
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav{
+    width: 20%;
+}
+
 
 .navbar{
-    background-color: rgba(224, 136, 12, 0.5);
+    background-color: #dd820a;   
     margin-bottom: 0;
     border: 0;
     width: 100%;
@@ -45,22 +43,21 @@ hr{
 }
 
 .header{
-    height: 80vh;
-    width: 100%;
-    font-family: "poppins";
+    
+    font-family: "poppins", sans-serif;
     color:#dd820a;
-    
-   
-    
-
+    height: 500px;
+    width: 100%;
         background: url(../images/desert-wallpaper-4k-1280x960.jpeg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
-
-}
+        background-position: top;
+        
+        margin: 0;
+        padding: 0;
+}   
 
 .background{
     size: cover;
@@ -68,16 +65,38 @@ hr{
 
 }
 
+hr{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+.hr-1{
+    color: black;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.773);
+}
+
+span{
+    margin: 0;
+    padding: 0;
+}
 
 .mission-statement{
     display:inline-block;
-    background-color: beige;
+    background-color: #d56f29;
     size: cover;
     width:100%;
     border: 0;
     justify-content: center;
+    margin: 0;
     
 }
+
+.gap{
+    padding: 0;
+}
+
 
 .mission-statement img{
     padding: 0;
@@ -95,13 +114,18 @@ hr{
     flex:15%;
     align-items: center;
     justify-content: center;
-    background-color: beige;
+    background-color: #d56f29;
 }
 
 .mission-statement div{
     width:100%;
-    background-color: beige;
+    background-color: #d56f29;
+    margin: 0;
+    color: rgb(9, 2, 53);
+    font-family: "poppins", sans-serif;
 }
+
+
 
 .why{
     text-transform: uppercase;
@@ -109,13 +133,23 @@ hr{
 
 .booking-and-buying{
     width: 100%;
+    color: rgb(9, 2, 53);
+    font-family: "Poppins", sans-serif;
+    padding:0;
 }
 
 .booking-and-buying div{
-    background-color: skyblue;
+    background-color: rgb(2, 49, 53);
     width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-
+.book-and-buy-2{
+    color: rgb(9, 2, 53);
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    padding:20px 0 0 10px;
 }
 
 .images{
@@ -125,6 +159,9 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #d56f29;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(9, 2, 53);;
 }
 
 .images .row {
@@ -132,7 +169,7 @@ hr{
   }
   
 .images .column {
-    flex: 33.33%;
+    
     padding: 5px;
   }
 
@@ -165,3 +202,40 @@ hr{
 
   position: relative;
 }
+
+#photos{
+    clear: both;
+    line-height: 0; 
+    column-count: 4;
+    column-gap: 0;
+}
+
+footer{
+    line-height: 5px;
+    height:20px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.social-networks{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: #d56f29; 
+      }
+      
+.social-networks li{
+        display:inline;
+        padding: 0;
+        margin: 0;
+        height: 20px;
+    }
+      
+.social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: rgb(9, 2, 53);
+        height:20px;
+        }
