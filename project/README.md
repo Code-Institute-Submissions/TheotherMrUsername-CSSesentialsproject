@@ -1,42 +1,116 @@
+Milestone 1 Tanker Transport - 
 
+Project overview 
 
-Welcome user.
+The following project to a fictional landing page for a heavy goods transport service. While the vehicle itself, the Nasa crawler, is real the use advertised on the page is not. The page will be used to promote booking the crawler and possibly sell other products to potential buyers. 
 
-The following project to a fictional landing page for a heavy goods transport vehicle. While the vehicle itself, the Nasa crawler is real the use advertised on the page is not. The page will be used to promote the use of the crawler and possibly sell other products to potential buyers. 
-
-The page will include a title a sub heading with the company motto. 
-Below this will have a picture with the company mission statement which also outlines the geopolitical problem which product is being used for subvert. 
-
-Below will be a mission statement section containing two buttons, one leading to a booking form and one leading to pictures of additional models for a customer to buy. 
-
-Below this will be a section of images of the products available. 
+The live website can be found at the following link;
 
 
 
+1. UK
+
+Overview of UX decisions, structure etc. Examples of websites 
+
+User Stories. 
+
+As a buiness owner, I want to build awereness of the service and promote the business. 
+
+As a business owner, I want to promte the booking service to new and returning customers and lead returning customers to the option to buy the product. 
+
+As a business owner I want the customer to have easy access to a booking site which is simple to use.
+
+As a user I want a website with simple chioces delivered easily. 
+
+As a user I would like to access to site regardless of the device I am using. 
+
+As a user I want the option of browsing stock and gaining access to additonal information regarding the service. 
+
+Structure 
+
+I wanted to create a simple landing page with 
 
 
 
-The top of the page begins with the standard emmit boiler plate code. The head contains links to
+Mission statement page: This part would outline the problem which the product is trying to address and sell the service to a potential customer. 
 
-https://getbootstrap.com/docs/4.3/getting-started/introduction/ https://fontawesome.com/
+Booking and Buying Section: This gave quick access to the booking section or the buying section for new and returning customers. 
 
-The head section of the page also links to the css file which can be found in the github respository.
+Stock section: This would give users the ability to browse pictures of available models. 
 
-Body
-First section has class of lead. From the demonstration of bootstrap in  CI video
-https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first
 
-Buttons added to promote the services of selling and booking rides on the crawler. 
+Colour. 
 
-I've added mission statement paragraphs setting out the clients problem, and offering the service to solve it. 
-Below that there is a pitch to check out the booking section below 
+The navbar and mission statement sections are coloured to complement the background picture on which greats the user when the page first loads with the headers having darker theme to contrast these coulors. 
 
-11/12/2021  Added more col width classes and a nav bar with links. 
-Text in the book and buy section is removed for smaller screen sizes. 
-First images added to the mission statement section 
+The additional sections were styled to be consistent with this theme with a dark blue being used to represent the ocean which the site the service is trying to connect the user to. 
 
-15/12/21
 
-I have added images of the products available to buy on the site in the images section. 
-changed the color of the nav bar. I cannot seem to get a consistant layout. The navbar covers the whole width of the page, other elements do not. 
-I need to move the background image down to frame the header text in the top of the screen, but have only srunk the navbar thus far. 
+Color Palette. 
+
+Langauge:
+
+After estabilising the name of the service in the navbar and the additional product infromation in the opening header, the secondary header tries to highten the users interest with an open statement to draw them in. 
+
+I tried to quickly establish the purpose of the service and the method it uses in small pieces of dialof so as not overwhelm the user. 
+
+2. Features
+
+
+
+Nav bar displays the title which describes the service. 
+
+
+
+Footer:
+
+The section includes social media links. 
+
+
+
+3. Technologoes used. 
+
+HTML - Programming language
+
+CSS- Programming laguage. Used for styling the website. 
+
+Bootstrap CSS Framwork - Library of componants for the structure of the webpage allowing easier use over multiple devices. 
+
+Font Awesome - Icons 
+
+Google Fonts - Font Library 
+
+
+
+GitHub Code repository
+
+Git Pod Development invironment used for writing the site code and uploading to Github. 
+
+4. Testing 
+
+5. Deployment 
+
+
+Go to GitHub,com 
+
+
+6. Credits
+
+I referenced the Whiskey Drop project from code institute for the main structure of the page. 
+
+Technical 
+
+w3School. For layout problems. 
+
+
+Media
+
+The images were taken from;
+
+Nasa 
+
+Background image?
+
+
+
+
