@@ -144,16 +144,23 @@ span{
     color: rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
     padding:0 0 0 29px;
-
 }
 
 
 .book-and-buy-2{
-    background-color: #fafafa;
-    width: 100%;
     margin: 0;
     padding: 0 0 0 20px;
     color: rgb(9, 2, 53);
+    height: 300px;
+    width: 100%;
+   
+    background: url(../images/desert-wallpaper-4k-1280x960.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: top;
+    
 }
 
 
@@ -192,20 +199,21 @@ span{
   /*page 2 */
 
   .images-2{
+    color: rgb(9, 2, 53);
     padding: 0 0 0 40px;
     margin: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #060300;
+
     font-family: "Poppins", sans-serif;
-    background-color: #fafafa
+    background-color: #fafafa;
+
+    
   }
 
-.images-2 .row {
-        display: flex;
-      }
+
       
 .images .column {
         
@@ -235,7 +243,7 @@ padding: 5px;
 }
 
 .images{
-    
+   
     display: flex;
   align-items: center;
   justify-content: center;
@@ -243,12 +251,24 @@ padding: 5px;
   position: relative;
 }
 
+img{
+    
+}
+
+.
+
 #photos{
     clear: both;
     line-height: 0; 
     column-count: 4;
     column-gap: 0;
 }
+
+.img1-page2{
+
+}
+
+/*footer*/
 
 footer{
     line-height: 5px;
