@@ -255,7 +255,10 @@ img{
     
 }
 
-.
+.map img{
+    height:400px;
+    width:400px;
+}
 
 #photos{
     clear: both;
