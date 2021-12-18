@@ -203,22 +203,36 @@ span{
     padding: 0 0 0 40px;
     margin: 0;
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
 
     font-family: "Poppins", sans-serif;
-    background-color: #fafafa;
-
-    
+    background-color: #d56f29;
   }
 
+.details-1{
+    display:flex;
+    align-items: center;
+}
 
+  .details-2{
+      display: flex;
+      align-items: center;
+
+  }
+
+.details-3{
+    display: flex;
+    align-items: center;
+}
       
 .images .column {
         
 padding: 5px;
+width: 100%;
+
 }
+
 
 
 /*pictures*/
@@ -251,13 +265,51 @@ padding: 5px;
   position: relative;
 }
 
-img{
-    
+.details-1{
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+
+.details-2{
+    padding:0;
+    margin:0;
+    font-weight: bold;
+}
+
+.details-3{
+    padding:0;
+    margin:0;
+    font-weight: bold;
+}
+
+.models-1{
+      padding:0;
+        font-weight:bold; 
+}
+
+.models-2{
+    font-weight:bold; 
+}
+
+.models-3{
+    font-weight:bold; 
+}
+
+.map{
+    color: rgb(9, 2, 53);
+    background-color: #d56f29;
+    font-family: "Poppins", sans-serif;
 }
 
 .map img{
     height:400px;
     width:400px;
+    background-color: #d56f29; 
+}
+
+.map-header{
+    padding: 0 0 0 40px;
 }
 
 #photos{
@@ -285,7 +337,7 @@ footer{
         text-align: center;
         padding: 0;
         margin: 0;
-        background-color: #d56f29; 
+        background-color: #dd820a;  
       }
       
 .social-networks li{

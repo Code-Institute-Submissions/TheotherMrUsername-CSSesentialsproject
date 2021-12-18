@@ -40,7 +40,7 @@
     <div class="container-fluid book-and-buy-2">
       <div class="row book-and-buy-2">
           <div class="col-6 col-sm-12 col-lg-6 booking">
-              <h2 class="text-uppercase"><i class="fas fa-calendar-week d-sm-inline"></i>Book a lift</h2>
+              <h2 class="text-uppercase"><i class="fas fa-calendar-week d-sm-inline"></i>Book a Crawler</h2>
               <button class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Book!</button> <!--form -->
           
           <div>
@@ -49,7 +49,7 @@
           </div>
       <div class=" col-6  col-sm-12 col-lg-6 buying">
       <h2 class="text-uppercase"><i class="fas fa-credit-card d-sm-inline"></i>Buy a Crawler</h2>
-      <button class="btn btn-success" >Buy!</button> <!--form -->
+      <button class="btn btn-success"data-toggle="modal" data-target="#purchaseModal">Buy!</button> <!--form -->
       <p class="d-none d-md-block">
           Choose from one of our models to priortise your needs.
       </p>
@@ -60,8 +60,31 @@
 
 
 <hr class="hr-1">
-<div class="map"><img alt="A map of the middle east" src="images/map.png"></div>
+<div class="container-fluid map">
+<div class="row map container">
+  <div class="column map">
+    <img alt="A map of the middle east" src="images/ports.jpg">
+  </div>
+    <div class="column map-header"> 
+      <h2 class="map-header">We serve the following ports.</h2>
+        <ul>
+          <li>Umm Qasr (Iraq)</li>
+          <li>Kuwait (Kuwait)</li>
+          <li>Dammam/Al Jubail Saudi Arabia)</li>
+          <li>Bahrain (Bahrain)</li>
+          <li>Hamad (Qatar)</li>
+          <li>Abu Dhabi (U.A.E)</li>
+          <li>Jebel Ali (U.A.E)</li>
+          <li>Sohar (Oman)</li>
+          <li>Aden (Yemen)</li>
+          <li>Hodeidah (Yemen)</li>
+          <li>Jeddah (Saudi Arabia)</li>
+          <li>Aqaba (Jordan)<li>
 
+        </ul>
+    </div>
+  </div>
+</div>
 <hr class="hr-1">
 
 
@@ -83,42 +106,150 @@
     </footer>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Book A Ride</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <form>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Book A Crawler</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+
+                  <div class="form-group">
+                      <label for="exampleInputname1">Company Name</label>
+                      <input type="text" class="form-control" id="exampleInputname" aria-describedby="nameHelp" placeholder="Company Name">
+                    </div>
+
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      <label for="exampleInputvessel1">Vessel Name</label>
+                      <input type="text" class="form-control" id="exampleInputVessel" aria-describedby="vesselHelp" placeholder="Vessel Name">
                     </div>
+
                     <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      <label for="exampleInputphone1">Phone Number</label>
+                      <input type="text" class="form-control" id="exampleInputPhone" aria-describedby="phoneHelp" placeholder="Phone Number">
                     </div>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+
+                  <select class="custom-select custom-select-lg mb-3">
+                      <option selected>Crawler Option</option>
+                      <option value="1">The FLatbed</option>
+                      <option value="2">El Grande</option>
+                      <option value="3">Tall Boy</option>
+                    </select>
+
+                      <select class="custom-select custom-select-lg mb-3">
+                          <option selected>Point of Origin</option>
+                          <option value="1">Umm Qasr (Iraq)</option>
+                          <option value="2">Kuwait (Kuwait)</option>
+                          <option value="3">Dammam/Al Jubail Saudi Arabia)</option>
+                          <option value="4">Bahrain (Bahrain)</option>
+                          <option value="5">Hamad (Qatar)</option>
+                          <option value="6">Abu Dhabi (U.A.E)</option>
+                          <option value="7">Jebel Ali (U.A.E)</option>
+                          <option value="8">Sohar (Oman)</option>
+                          <option value="9">Aden (Yemen)</option>
+                          <option value="10">Hodeidah (Yemen)</option>
+                          <option value="11">Jeddah (Saudi Arabia)</option>
+                          <option value="12">Aqaba (Jordan)</option>
+                      </select>
+          
+        
+
+                        <select class="custom-select custom-select-lg mb-3">
+                          <option selected>Destination</option>
+                          <option value="1">Umm Qasr (Iraq)</option>
+                          <option value="2">Kuwait (Kuwait)</option>
+                          <option value="3">Dammam/Al Jubail Saudi Arabia)</option>
+                          <option value="4">Bahrain (Bahrain)</option>
+                          <option value="5">Hamad (Qatar)</option>
+                          <option value="6">Abu Dhabi (U.A.E)</option>
+                          <option value="7">Jebel Ali (U.A.E)</option>
+                          <option value="8">Sohar (Oman)</option>
+                          <option value="9">Aden (Yemen)</option>
+                          <option value="10">Hodeidah (Yemen)</option>
+                          <option value="11">Jeddah (Saudi Arabia)</option>
+                          <option value="12">Aqaba (Jordan)</option>
+                        </select>
+
+                 
+                  
+                </form>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Confirm Booking</button>
           </div>
         </div>
       </div>
+    </div>
 
 
+    <div class="modal" tabindex="-1" role="dialog" id="purchaseModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Buy a Crawler</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
 
+                  <select class="custom-select custom-select-lg mb-3">
+                      <option selected>Crawler Option</option>
+                      <option value="1">The FLatbed</option>
+                      <option value="2">El Grande</option>
+                      <option value="3">Tall Boy</option>
+                    </select>
+
+                    <div class="container p-0">
+                      <div class="card px-4">
+                          <p class="h8 py-3">Payment Details</p>
+                          <div class="row gx-3">
+                              <div class="col-12">
+                                  <div class="d-flex flex-column">
+                                      <p class="text mb-1">Company Name</p> <input class="form-control mb-3" type="text" placeholder="Company Name" value="Black Gold Holdings">
+                                  </div>
+                              </div>
+                              <div class="col-12">
+                                  <div class="d-flex flex-column">
+                                      <p class="text mb-1">Card Number</p> <input class="form-control mb-3" type="text" placeholder="1234 5678 435678">
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                  <div class="d-flex flex-column">
+                                      <p class="text mb-1">Expiry</p> <input class="form-control mb-3" type="text" placeholder="MM/YYYY">
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                  <div class="d-flex flex-column">
+                                      <p class="text mb-1">CVV/CVC</p> <input class="form-control mb-3 pt-2 " type="password" placeholder="***">
+                                  </div>
+                              </div>
+                              <div class="col-12">
+                                  <div class="btn btn-primary mb-3"> <span class="ps-3">Pay</span> <span class="fas fa-arrow-right"></span> </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                 
+                  
+                </form>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
 
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

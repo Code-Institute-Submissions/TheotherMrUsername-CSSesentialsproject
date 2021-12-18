@@ -15,7 +15,7 @@
 <!--Emment boilerplate head with style links to bootstrap, font awesome (urls in readme file) 
     link to style css also included. File in git reposity-->
 
-    <body >
+<body >
         
         <nav class="navbar navbar-light navbar-expand-sm no-gutters">
             
@@ -35,9 +35,9 @@
              
         </nav>
     
-<hr class="hr-1">
+        <hr class="hr-1">
 
-<!--header --> 
+    <!--header --> 
     <div class="container-fluid background no-gutters gap">
         
     <header >
@@ -48,13 +48,13 @@
         
         <div class="row booking-and-buying"> 
         <div class="col">
-            <h2 class="text-uppercase"><i class="fas fa-calendar-week d-sm-inline"></i>Book a lift</h2>
+            <h2 class="text-uppercase"><i class="fas fa-calendar-week d-sm-inline"></i>Book a Crawler</h2>
                         <button class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Book!</button> <!--form -->
                     <p class="d-none d-md-block"></i>Book a lift with our many transports for you and your cargo.</p>
                 </div>
                 <div class="col">
                 <h2 class="text-uppercase"><i class="fas fa-credit-card d-sm-inline"></i>Buy a Crawler</h2>
-                <button class="btn btn-success" >Buy!</button> <!--drop down to models section -->
+                <button class="btn btn-success" data-toggle="modal" data-target="#purchaseModal">Buy!</button> <!--drop down to models section -->
                 <p class="d-none d-md-block">
                     Choose from one of our models to priortise your needs.
                 </p>
@@ -67,7 +67,7 @@
            
    
     </header>
-<hr class="hr-1">
+    <hr class="hr-1">
     <!--mission statement, company info and background image-->
     <div class="container-fluid mission-statement ">
         <div class="blue">
@@ -142,13 +142,13 @@
             </ul>
     </footer>
 
-</article>
+    </article>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Book A Ride</h5>
+              <h5 class="modal-title">Book A Crawler</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -166,20 +166,58 @@
                         <input type="text" class="form-control" id="exampleInputVessel" aria-describedby="vesselHelp" placeholder="Vessel Name">
                       </div>
 
+                      <div class="form-group">
+                        <label for="exampleInputphone1">Phone Number</label>
+                        <input type="text" class="form-control" id="exampleInputPhone" aria-describedby="phoneHelp" placeholder="Phone Number">
+                      </div>
+
                     <div class="form-group">
                       <label for="exampleInputEmail1">Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>
 
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
+                    <select class="custom-select custom-select-lg mb-3">
+                        <option selected>Crawler Option</option>
+                        <option value="1">The FLatbed</option>
+                        <option value="2">El Grande</option>
+                        <option value="3">Tall Boy</option>
+                      </select>
+
+                        <select class="custom-select custom-select-lg mb-3">
+                            <option selected>Point of Origin</option>
+                          <option value="1">Umm Qasr (Iraq)</option>
+                          <option value="2">Kuwait (Kuwait)</option>
+                          <option value="3">Dammam/Al Jubail Saudi Arabia)</option>
+                          <option value="4">Bahrain (Bahrain)</option>
+                          <option value="5">Hamad (Qatar)</option>
+                          <option value="6">Abu Dhabi (U.A.E)</option>
+                          <option value="7">Jebel Ali (U.A.E)</option>
+                          <option value="8">Sohar (Oman)</option>
+                          <option value="9">Aden (Yemen)</option>
+                          <option value="10">Hodeidah (Yemen)</option>
+                          <option value="11">Jeddah (Saudi Arabia)</option>
+                          <option value="12">Aqaba (Jordan)</option>
+                      </select>
+          
+        
+
+                        <select class="custom-select custom-select-lg mb-3">
+                          <option selected>Destination</option>
+                          <option value="1">Umm Qasr (Iraq)</option>
+                          <option value="2">Kuwait (Kuwait)</option>
+                          <option value="3">Dammam/Al Jubail Saudi Arabia)</option>
+                          <option value="4">Bahrain (Bahrain)</option>
+                          <option value="5">Hamad (Qatar)</option>
+                          <option value="6">Abu Dhabi (U.A.E)</option>
+                          <option value="7">Jebel Ali (U.A.E)</option>
+                          <option value="8">Sohar (Oman)</option>
+                          <option value="9">Aden (Yemen)</option>
+                          <option value="10">Hodeidah (Yemen)</option>
+                          <option value="11">Jeddah (Saudi Arabia)</option>
+                          <option value="12">Aqaba (Jordan)</option>
+                          </select>
+
+                   
                     
                   </form>
             </div>
@@ -192,7 +230,64 @@
         </div>
       </div>
 
+      <div class="modal" tabindex="-1" role="dialog" id="purchaseModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Buy a Crawler</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
 
+                    <select class="custom-select custom-select-lg mb-3">
+                        <option selected>Crawler Option</option>
+                        <option value="1">The FLatbed</option>
+                        <option value="2">El Grande</option>
+                        <option value="3">Tall Boy</option>
+                      </select>
+
+                      <div class="container p-0">
+                        <div class="card px-4">
+                            <p class="h8 py-3">Payment Details</p>
+                            <div class="row gx-3">
+                                <div class="col-12">
+                                    <div class="d-flex flex-column">
+                                        <p class="text mb-1">Company Name</p> <input class="form-control mb-3" type="text" placeholder="Company Name" value="Black Gold Holdings">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex flex-column">
+                                        <p class="text mb-1">Card Number</p> <input class="form-control mb-3" type="text" placeholder="1234 5678 435678">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex flex-column">
+                                        <p class="text mb-1">Expiry</p> <input class="form-control mb-3" type="text" placeholder="MM/YYYY">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex flex-column">
+                                        <p class="text mb-1">CVV/CVC</p> <input class="form-control mb-3 pt-2 " type="password" placeholder="***">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="btn btn-primary mb-3"> <span class="ps-3">Pay</span> <span class="fas fa-arrow-right"></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
+                  </form>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
 
 
 
@@ -200,5 +295,5 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      </body>
+</body>
 </html>
