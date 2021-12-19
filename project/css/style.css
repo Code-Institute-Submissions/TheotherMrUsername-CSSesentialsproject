@@ -4,11 +4,10 @@
     color:rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
     padding-top: 15px;
-    font-size: 75px;
+    
     font-weight: bold;
     padding: 20px 0 0 0;
     position:flex;
-    min-height:100px;
     display: flex;
 
 }
@@ -140,21 +139,19 @@ span{
 
 
 
-.why{
-    text-transform: uppercase;
-}
+
 
 .booking-and-buying{
     width: 100%;
     color: rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
-    padding:0 0 0 29px;
+    padding:10px 0 0 10px;
 }
 
 
 .book-and-buy-2{
     margin: 0;
-    padding: 0 0 0 20px;
+    padding: 10px 0 0 10px;
     color: rgb(9, 2, 53);
     height: 300px;
     width: 100%;
@@ -173,8 +170,23 @@ span{
     color: rgb(9, 2, 53);
     font-family: "Poppins", sans-serif;
     margin-top: 20px;
-    padding:20px 0 0 10px;
+    padding:20px 20px 0 10px;
+    
 }
+
+.background-book{
+    background-color: rgba(254, 255, 254, 0.319);
+    padding: 0;
+    color: rgb(9, 2, 53);
+    border-radius: 3%;
+    margin: 0;
+    
+}
+
+ .color{
+    color:rgb(9, 2, 53);
+}
+
 
 .images{
     padding: 0;
@@ -324,10 +336,6 @@ width: 100%;
     column-gap: 0;
 }
 
-.img1-page2{
-
-}
-
 /*footer*/
 
 footer{
@@ -361,24 +369,3 @@ footer{
         }
 
 
-@media (max-width: 810px) {
-    .navbar .logo {
-      font-size: 40px;
-      padding: 0;
-        margin: 0;
-    }
-  }
-
-  @media (max-width: 375px) {
-    .navbar .logo{
-        font-size: 5px;
-        padding: 0;
-        margin: 0;
-    }
-
-    ul{
-        padding: 0;
-        margin: 0; 
-    }
-    
-}
