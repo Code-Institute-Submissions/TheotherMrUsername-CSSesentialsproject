@@ -12,6 +12,8 @@ The project can be found with the following link: https://github.com/TheotherMrU
 <img src="/TheotherMrUsername/CSSesentialsproject/blob/main/project/images/phone.png">
 
 
+Examples of wireframes are not included in the readme due to time constraints. 
+
 1. UK
 
 Overview of UX decisions, structure etc. Examples of websites 
@@ -93,7 +95,15 @@ GitHub Code repository
 
 Git Pod Development invironment used for writing the site code and uploading to Github. 
 
-4. 
+4. Testing 
+
+    W3C validators used. 
+
+    HTML  254 errors found. 
+    CSS  1023 errors found. 
+
+   I'm not sure if I'm using this correctly but bue to time constraints (It is 3 in the morning, I have workk at 7, the deadline is at 12. )
+   I will continue.  
 
 5. Deployment 
 
@@ -111,7 +121,10 @@ Additional information around these cloning steps can be found on GitHub Pages H
 
 I referenced the Whiskey Drop project from code institute for the nav bar and the structure of the page. 
 
-The footer was referenced from the love running tutorial on code insititute. 
+The footer was referenced from the love running tutorial on code insititute. https://learn.codeinstitute.net
+
+modal form from bootstrap https://getbootstrap.com/docs/4.0/components/forms/
+
 
 Technical 
 
