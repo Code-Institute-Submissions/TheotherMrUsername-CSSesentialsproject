@@ -8,6 +8,11 @@ The live website can be found at the following link;
 
 
 
+<img src="images/desktop.jpeg">
+<img src="images/tablet.jpeg">
+<img src="images/phone.jpeg">
+
+
 1. UK
 
 Overview of UX decisions, structure etc. Examples of websites 
